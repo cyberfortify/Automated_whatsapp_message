@@ -21,7 +21,7 @@ name = input('Enter the recipient name: ')
 recipient_number = input('Enter the recipient whatsapp number with country code(+91): ')
 message_body = input(f'Enter the message you want to send to {name}: ')
 
-date_str = input('Enter the date to send the message(yyyt-mm-dd): ')
+date_str = input('Enter the date to send the message(YYYY-MM-DD): ')
 time_str = input('Enter the time to send the message(24 hour format HH:MM): ')
 
 schedule_datetime = datetime.strptime(f'{date_str} {time_str}',"%Y-%m-%d %H:%M")
